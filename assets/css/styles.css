@@ -7,10 +7,10 @@ body {
 	font-family: "Funnel Display", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
-	margin: 1rem;
+	margin: 40px;
 	background-color: black;
 	color: rgb(189, 116, 178);
-	font-size: 5rem;
+	font-size: 60px;
 	overflow: hidden;
 	background-image: url(../img/beauty\ leaves\ GIF.gif);
 	background-repeat: no-repeat;
@@ -21,10 +21,10 @@ body {
 
 .grid-container {
 	display: grid;
-	/* grid-template-columns: 1fr 1fr 1fr; */
-	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+	/*grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); */
 	gap: 2rem;
-	margin: 10% 4rem 0 4rem;
+	margin: 2rem 2rem 5rem 2rem;
 }
 
 
@@ -34,9 +34,13 @@ div {
 }
 
 
+
+
+
+
 .last {
     font-family: "League Script", cursive;
-	font-size: 5rem;
+	font-size: 75px;
     font-weight: 400;
     padding-bottom: 1rem;
 }
